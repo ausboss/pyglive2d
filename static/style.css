@@ -1,0 +1,116 @@
+
+  body {
+      background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+  .card {
+    background-color: #ffffff00;
+    background-clip: border-box;
+    border: 0;
+  }
+    .text-input-box {
+        background-color: #24232378;
+        background-clip: border-box;
+        border-radius: 0%;
+        border: 0;
+        resize: none;
+        color: white;
+}
+.form-control, .text-input-box {
+    background-color: #24232378;
+  }
+  
+  .text-input-box {
+    background-color: #24232378;
+  }
+
+  .form-control:focus, .text-input-box:focus {
+    background-color: #24232378;
+    color: white;
+    outline: none; /* remove the default focus outline */
+  }
+  #chat1 .card-header {
+    border-top-left-radius: 0px;
+    background: rgba(53, 43, 49, 0.72);
+    border-top-right-radius: 0px;
+  }
+  
+  #chat1 {
+    border-radius: 0px;
+
+
+  }
+  .chat-body {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(53, 43, 49, 0.72);
+    justify-content: flex-end;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .chat-history {
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
+  .chat-history p {
+    margin: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 0;
+  }
+  
+  .btn-primary {
+
+    background-color: #0000006b;
+    border-color: transparent;
+    border-radius: 0;
+  }
+  .chat-bubble-left {
+    border-radius: 15px;
+    background-color: rgb(0 0 0 / 29%);
+    width: 75%;
+    word-wrap: break-word;
+    border-color: transparent;
+    border-radius: 0;
+    color: white;
+
+  }
+  
+  .chat-bubble-right {
+    border-radius: 15px;
+    background-color: rgb(0 0 0 / 29%);
+    width: 75%;
+    word-wrap: break-word;
+    border-color: transparent;
+    border-radius: 0;
+    color: white;
+    border: 0 solid #dee2e6!important;
+  }
+
+  .chat-avatar1 {
+    height: 5000px;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Set the height and overflow of the element to enable scrolling */
+.chat-history {
+    height: 300px;
+    overflow: auto;
+  }
+  .chat-avatar {
+    width: 45px;
+    height: 100%;
+  }
+  
+  #canvas {
+
+    background-color: transparent;
+  }

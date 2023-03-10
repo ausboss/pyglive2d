@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/main.css" rel="stylesheet" />
+    <link href="static/css/overlay.css" rel="stylesheet" />
+    <title>USAW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div id="overlay" class="overlay">
+        <a href="https://hackdaddy.dev/blog/unsuperior-ai-waifu/">Unsuperior AI Waifu</a>
+
+
+        <button id="start-button" type="button">Yessir</button>
+        <div id="warning">
+
+        </div>
+    </div>
+    <canvas id=canvas></canvas>
+    <div class="ui">
+            <div class="container py-5">
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8 col-lg-6 col-xl-4">
+
+          <div class="card" id="chat1">
+            <div class="card-header d-flex justify-content-between align-items-center p-3 text-white border-bottom-0">
+              <i class="fas fa-angle-left"></i>
+              <p class="mb-0 fw-bold">Tensorsama</p>
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="card-body chat-body">
+
+              <div class="chat-history" id="chat-history"></div>
+
+              <form method="POST" action="/chatbot" id="chat-form">
+                <div class="form-group mt-3">
+                  <textarea class="form-control text-input-box" name="input" rows="3"></textarea>
+                </div>
+                <div class="d-grid mt-3">
+                  <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.2/dist/browser/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+    <script type="module" src="static/js/main.js"></script>
+    <script type="module" src="static/script.js"></script>
+</body>
+
+</html>
