@@ -336,28 +336,3 @@ function onInteract(model, getInteraction) {
     $overlay.css("opacity", .8);
     interactionDisabled = false;
 })();
-// myModelConfig.js
-
-var myModelConfig = {
-    AnisoLevel: 2,
-    AutoBreath: false,
-    FileReferences: {
-      Moc: "senko_normal.moc3",
-      Physics: "senko.physics3.json",
-      Textures: ["senko_normal.4096/texture_00.png"],
-      Motions: {
-        Idle: [{file: "Idle_01.mtn"}],
-        Tap: [{file: "Tap_01.mtn"}],
-        // Add other motions here
-      }
-    },
-    Groups: [
-      { Target: "Parameter", Name: "EyeBlink", Text: "" },
-      { Target: "Parameter", Name: "LipSync", Text: "" }
-    ],
-    HitAreas: [{ Name: "Head", Id: "D_REF.HEAD" }],
-    LipSync: true,
-    Name: "Senko",
-    Version: 3,
-    url: "https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json"
-  };
