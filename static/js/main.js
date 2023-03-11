@@ -78,13 +78,10 @@ if (modelChoice == null || modelChoice == "") {
 if (modelData == null) {
     addError("ERROR: Unknown model " + modelChoice);
 }
-let modelUrl = "https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/%E5%B0%91%E5%A5%B3%E5%92%96%E5%95%A1%E6%9E%AA%20girls%20cafe%20gun/girl06/l2d18.u/l2d18.u.model3.json";
+// let modelUrl = "https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/%E5%B0%91%E5%A5%B3%E5%92%96%E5%95%A1%E6%9E%AA%20girls%20cafe%20gun/girl06/l2d18.u/l2d18.u.model3.json";
 
 let models = {
-    // model: await PIXI.live2d.Live2DModel.from(modelData["url"]),
-    
-    model: await PIXI.live2d.Live2DModel.from(modelUrl),
-    // model: await PIXI.live2d.Live2DModel.from(myModelConfig.url),
+    model: await PIXI.live2d.Live2DModel.from(modelData["url"]),
     background_model: await PIXI.live2d.Live2DModel.from(background_model_url)
 }
 let model = models["model"];

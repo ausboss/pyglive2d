@@ -93,13 +93,34 @@
         }
     },
     {
-        "type": "Live2D Model Setting",
-        "name": "L_114202911",
-        "url": "https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/%E5%B0%91%E5%A5%B3%E5%92%96%E5%95%A1%E6%9E%AA%20girls%20cafe%20gun/girl06/l2d07.u/l2d07.u.model3.json",
-        "kScale": 0.0006,
-        "kXOffset": 700,
-        "kYOffset": 0,
-        "idleMotionGroupName": "Motions"
+    "name": "Aqua",
+    "description": "",
+    "url": "static/Aqua/Aqua.model3.json",
+    "kScale": 0.0005,
+    "kXOffset": 1500,
+    "kYOffset": -150,
+    "idleMotionGroupName": "00_Wait_01.motion3.json",
+    "emotionMap": {
+        "neutral": 0,
+        "anger": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 1,
+        "surprise": 1,
+        "admiration": 0,
+        "amusement": 0,
+        "relief": 0,
+        "remorse": 1,
+        "caring": 0,
+        "confusion": 0,
+        "curiosity": 0,
+        "pride": 1,
+        "realization": 0,
+        "optimism": 0,
+        "excitement": 0
     }
+}
+
 
 ]
